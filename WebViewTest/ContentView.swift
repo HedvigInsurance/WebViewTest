@@ -8,7 +8,7 @@
 import SwiftUI
 import WebKit
 
-let widgetURL = "https://dev.hedvigit.com/se/widget/run/405471983/fcc30941-3cb8-400a-b271-15056866435a/4a49efd1-729e-4620-a83a-aefdc0f049dd/sign"
+let widgetURL = "https://dev.hedvigit.com/se/widget/avy-offer"
 
 class Coordinator: NSObject, WKNavigationDelegate {
     func webView(_ webView: WKWebView, decidePolicyFor navigationAction: WKNavigationAction, decisionHandler: @escaping (WKNavigationActionPolicy) -> Void) {
